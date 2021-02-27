@@ -17,7 +17,7 @@ header =`<div class="zelda-responsive-nav">
 </a>
 <div class="collapse navbar-collapse mean-menu">
 <ul class="navbar-nav">
-<li class="nav-item"><a href="#" class="nav-link active">Home </a>
+<li class="nav-item"><a href="index.html" class="nav-link active">Home </a>
 
 </li>
 <li class="nav-item"><a href="#" class="nav-link">Platform <i class="flaticon-down-arrow"></i></a>
@@ -28,7 +28,7 @@ header =`<div class="zelda-responsive-nav">
  <li class="nav-item"><a href="Platform.html?a=Sport" class="nav-link">Sport</a></li>
 </ul>
 </li>
-<li class="nav-item"><a href="#" class="nav-link">Tournament <i class="flaticon-down-arrow"></i></a>
+<li class="nav-item"><a href="#" class="nav-link"  hidden="">Tournament <i class="flaticon-down-arrow"></i></a>
 <ul class="dropdown-menu">
 <li class="nav-item"><a href="stream-schedule.html" class="nav-link">Stream Schedule</a></li>
 <li class="nav-item"><a href="single-tournament.html" class="nav-link">Tournament Single</a></li>

@@ -280,7 +280,7 @@
 <div class="col-lg-6 col-md-12">
 <div class="register-form">
 <h2>Register</h2>
-<form>
+<form id="3assis">
 <div class="form-group">
 <label>Username</label>
 <input type="text" class="form-control" placeholder="Username or email">
@@ -365,9 +365,12 @@
 
 
 <script type="text/javascript">
-	$("#assis").click( function()
-   {
-     // alert('button clicked');
+
+
+
+
+	$('#3assis').submit(function(e) {
+  e.preventDefault();    
     var url_string = window.location.href;
 	var url = new URL(url_string);
 	var c = url.searchParams.get("s");
@@ -375,6 +378,6 @@
 	window.location.href = "checkout.html?s="+c;
 	//window.location.replace("checkout.html?s=");
 
-   }
-);
+
+});
 </script>
