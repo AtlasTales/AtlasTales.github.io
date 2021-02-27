@@ -294,7 +294,7 @@
 <input type="password" class="form-control" placeholder="Password">
 </div>
 <p class="description">The password should be at least eight characters long. To make it stronger, use upper and lower case letters, numbers, and symbols like ! " ? $ % ^ &amp; )</p>
-<button type="submit">Register</button>
+<button  id="assis" type="submit" >Register</button>
 </form>
 </div>
 </div>
@@ -359,5 +359,22 @@
 <script src="js/js-contact-form-script.js"></script>
 <script src="js/js-ajaxchimp.min.js"></script>
 <script src="js/js-main.js"></script>
+<script src="js/base.js"></script>
 </body>
 </html>
+
+
+<script type="text/javascript">
+	$("#assis").click( function()
+   {
+     // alert('button clicked');
+    var url_string = window.location.href;
+	var url = new URL(url_string);
+	var c = url.searchParams.get("s");
+	// alert(c);
+	window.location.href = "checkout.html?s="+c;
+	//window.location.replace("checkout.html?s=");
+
+   }
+);
+</script>
