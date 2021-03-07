@@ -104,3 +104,42 @@ header =`<div class="zelda-responsive-nav">
 </div>`;
 
 $(".navbar-area").html(header);
+
+
+logo = `
+<div class="logo">
+                <a href="index.html" class="d-inline-block"><img src="images/img-logo.png" alt="image"></a>
+                <ul class="footer-menu">
+                    <li class="nav-item"><a class="nav-link" href="#">Légal</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Conditions d'utilisation</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Politique de confidentialité</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Paramètres des cookies</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Centre de soutien</a></li>
+                </ul>
+            </div>
+`
+
+$(".footer-content").html(logo);
+
+down = `
+<div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6 col-sm-5">
+                <p><i class="bx bx-copyright"></i>2021 <a href="index.html">Atlas</a> games Pty Ltd.</p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-7" style="display: none;">
+                <div class="lang-switcher">
+                    <span>Select your language</span>
+                    <select>
+                        <option>English</option>
+                        <option>العربية</option>
+                        <option>French</option>
+                        <option>Portuguese</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+`
+
+$(".copyright-area").html(down);
