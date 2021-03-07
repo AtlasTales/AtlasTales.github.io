@@ -17,13 +17,13 @@ header =`<div class="zelda-responsive-nav">
 </a>
 <div class="collapse navbar-collapse mean-menu">
 <ul class="navbar-nav">
-<li class="nav-item"><a href="index.html" class="nav-link active">Home </a>
+<li class="nav-item"><a href="index.html" class="nav-link active">Accueil </a>
 
 </li>
-<li class="nav-item"><a href="#" class="nav-link">Platform <i class="flaticon-down-arrow"></i></a>
+<li class="nav-item"><a href="#" class="nav-link">Platforme <i class="flaticon-down-arrow"></i></a>
 <ul class="dropdown-menu">
- <li class="nav-item"><a href="Platform.html?a=Upcoming" class="nav-link">Upcoming</a></li>
- <li class="nav-item"><a href="Platform.html?a=Popular" class="nav-link">Popular</a></li>
+ <li class="nav-item"><a href="Platform.html?a=Upcoming" class="nav-link">A venir</a></li>
+ <li class="nav-item"><a href="Platform.html?a=Popular" class="nav-link">Popularire</a></li>
  <li class="nav-item"><a href="Platform.html?a=RPG" class="nav-link">RPG</a></li>
  <li class="nav-item"><a href="Platform.html?a=Sport" class="nav-link">Sport</a></li>
 </ul>
@@ -47,7 +47,7 @@ header =`<div class="zelda-responsive-nav">
 <!--<li class="nav-item"><a href="my-account.html?html" class="nav-link">My Account</a></li>-->
 <!--</ul>-->
 <!--</li>-->
-<li class="nav-item"><a href="#" class="nav-link">Community <i class="flaticon-down-arrow"></i></a>
+<li class="nav-item"><a href="#" class="nav-link">Communauté <i class="flaticon-down-arrow"></i></a>
 <ul class="dropdown-menu">
 
 <li class="nav-item"><a href="single-blog-1.html" class="nav-link">Blog</a></li>
