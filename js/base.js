@@ -142,4 +142,9 @@ down = `
     </div>
 `
 
+
+
 $(".copyright-area").html(down);
+
+
+document.title = 'Atlas Tales - hhhh'
