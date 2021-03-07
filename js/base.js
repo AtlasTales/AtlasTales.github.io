@@ -28,15 +28,15 @@ header =`<div class="zelda-responsive-nav">
  <li class="nav-item"><a href="Platform.html?a=Sport" class="nav-link">Sport</a></li>
 </ul>
 </li>
-<li class="nav-item"><a href="#" class="nav-link"  hidden="">Tournament <i class="flaticon-down-arrow"></i></a>
-<ul class="dropdown-menu">
-<li class="nav-item"><a href="stream-schedule.html" class="nav-link">Stream Schedule</a></li>
-<li class="nav-item"><a href="single-tournament.html" class="nav-link">Tournament Single</a></li>
-<li class="nav-item"><a href="single-match.html" class="nav-link">Match Single</a></li>
-<li class="nav-item"><a href="single-team.html" class="nav-link">Team Single</a></li>
-<li class="nav-item"><a href="single-player.html" class="nav-link">Player Single</a></li>
-</ul>
-</li>
+<!--<li class="nav-item"><a href="#" class="nav-link"  hidden="">Tournament <i class="flaticon-down-arrow"></i></a>-->
+<!--<ul class="dropdown-menu">-->
+<!--<li class="nav-item"><a href="stream-schedule.html" class="nav-link">Stream Schedule</a></li>-->
+<!--<li class="nav-item"><a href="single-tournament.html" class="nav-link">Tournament Single</a></li>-->
+<!--<li class="nav-item"><a href="single-match.html" class="nav-link">Match Single</a></li>-->
+<!--<li class="nav-item"><a href="single-team.html" class="nav-link">Team Single</a></li>-->
+<!--<li class="nav-item"><a href="single-player.html" class="nav-link">Player Single</a></li>-->
+<!--</ul>-->
+<!--</li>-->
 <!--<li class="nav-item"><a href="#" class="nav-link">Shop <i class="flaticon-down-arrow"></i></a>-->
 <!--<ul class="dropdown-menu">-->
 <!--<li class="nav-item"><a href="products-list-1.html" class="nav-link">Products List 01</a></li>-->
