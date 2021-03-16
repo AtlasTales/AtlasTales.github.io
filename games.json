@@ -1,0 +1,17 @@
+[
+	{
+		"name":"The Sand War",
+		"image":"static/teamtaboologo.png",
+		"categorie":"FPS/TPS"
+	},
+	{
+		"name":"The great Roman Treasure",
+		"image":"static/teamtaboologo.png",
+		"categorie":"RPG"
+	},
+	{
+		"name":"Board and Card Game",
+		"image":"static/teamtaboologo.png",
+		"categorie":"Board and Card Game"
+	}
+]
