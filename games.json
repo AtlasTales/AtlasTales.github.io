@@ -4,7 +4,7 @@
 		"logo":"static/teamtaboologo.png",
 		"imageScreen":"static/teamtaboologo.png",
 		"categorie":"FPS/TPS",
-		"url":"#",
+		"url":"/game.html",
 		"description":"<span class=\"font-accent\">Describe words</span> to your teammates <span class=\"font-accent\">without saying them!</span> The clock is ticking!",
 		"info":"4+ player"
 	},
@@ -13,7 +13,7 @@
 		"logo":"static/teamtaboologo.png",
 		"imageScreen":"static/teamtaboologo.png",
 		"categorie":"RPG",
-		"url":"#",
+		"url":"/game.html",
 		"description":"<span class=\"font-accent\">Describe words</span> to your teammates <span class=\"font-accent\">without saying them!</span> The clock is ticking!",
 		"info":"4+ player"
 	
@@ -23,7 +23,7 @@
 		"logo":"static/teamtaboologo.png",
 		"imageScreen":"static/teamtaboologo.png",
 		"categorie":"Board and Card Game",
-		"url":"#",
+		"url":"/game.html",
 		"description":"<span class=\"font-accent\">Describe words</span> to your teammates <span class=\"font-accent\">without saying them!</span> The clock is ticking!",
 		"info":"4+ player"
 	
