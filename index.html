@@ -673,7 +673,7 @@ transform: rotate(360deg);
     GameContent.forEach(function (Game) {
       GameDate = new Date(Game.Date).toLocaleDateString("en-GB", { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
 
-      GameContainer.append('<section class="innerblock sfwgffg">      <div class="hdg">        <h3>'+Game.name+'</h3>        <img class="gamelogo" src="'+Game.logo+'" alt="Logo of Team Taboo game">      </div>      <span class="drinkinggame">Game categorie</span>      <div class="imgwrap">        <img src="'+Game.imageScreen+'" alt="Screenshots of Team Taboo game">        <span class="workmode">Safe for work</span>      </div>      <p class="desc">'+Game.description+'</p>      <a class="btn pmy blue" href="'+Game.url+'" target="_blank">Jouer le jeu</a>      <p class="free">'+Game.info+'</p>    </section>');
+      GameContainer.append('<section class="innerblock sfwgffg">      <div class="hdg">        <h3>'+Game.name+'</h3>        <img class="gamelogo" src="'+Game.logo+'" alt="Logo of Team Taboo game">      </div>      <span class="drinkinggame">'+Game.categorie+'</span>      <div class="imgwrap">        <img src="'+Game.imageScreen+'" alt="Screenshots of Team Taboo game">        <span class="workmode">Safe for work</span>      </div>      <p class="desc">'+Game.description+'</p>      <a class="btn pmy blue" href="'+Game.url+'" target="_blank">Jouer le jeu</a>      <p class="free">'+Game.info+'</p>    </section>');
     });
   })
 
