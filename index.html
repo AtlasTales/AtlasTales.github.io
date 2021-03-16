@@ -654,44 +654,20 @@ transform: rotate(360deg);
 <script type="text/javascript">
   var GameContent;
 
-  $.getJSON("https://github.com/AtlasTales/atlastales.github.io/blob/master/games.json", function (content) {
+
+  $.getJSON("https://raw.githubusercontent.com/AtlasTales/atlastales.github.io/master/games.json", function (content) {
     GameContent = content;
-    // console.log(GameContent);
+    console.log(GameContent);
 
   })
-  
-//   GameContent = [
-//   {
-//     "name":"The Sand War",
-//     "logo":"static/teamtaboologo.png",
-//     "imageScreen":"static/teamtaboologo.png",
-//     "categorie":"FPS/TPS",
-//     "url":"#",
-//     "description":"<span class=\"font-accent\">Describe words</span> to your teammates <span class=\"font-accent\">without saying them!</span> The clock is ticking!"
-//   },
-//   {
-//     "name":"The great Roman Treasure",
-//     "logo":"static/teamtaboologo.png",
-//     "imageScreen":"static/teamtaboologo.png",
-//     "categorie":"RPG",
-//     "url":"#",
-//     "description":"<span class=\"font-accent\">Describe words</span> to your teammates <span class=\"font-accent\">without saying them!</span> The clock is ticking!"
-  
-//   },
-//   {
-//     "name":"Board and Card Game",
-//     "logo":"static/teamtaboologo.png",
-//     "imageScreen":"static/teamtaboologo.png",
-//     "categorie":"Board and Card Game",
-//     "url":"#",
-//     "description":"<span class=\"font-accent\">Describe words</span> to your teammates <span class=\"font-accent\">without saying them!</span> The clock is ticking!"
-  
-//   }
-// ]
+
+
     var GameContainer = $("#games").empty();
 
-    // <h2 class="gameshdg">Explorer les jeux</h2>
-    // <div class="filtergames"></div>
+    GameContainer.append(`
+    <h2 class="gameshdg">Explorer les jeux</h2>
+    <div class="filtergames"></div>
+      `)
 
     GameContent.forEach(function (Game) {
       GameDate = new Date(Game.Date).toLocaleDateString("en-GB", { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
