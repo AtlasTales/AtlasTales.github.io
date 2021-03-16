@@ -2,16 +2,24 @@
 	{
 		"name":"The Sand War",
 		"image":"static/teamtaboologo.png",
-		"categorie":"FPS/TPS"
+		"categorie":"FPS/TPS",
+		"url":"#",
+		"description":"<span class=\"font-accent\">Describe words</span> to your teammates <span class=\"font-accent\">without saying them!</span> The clock is ticking!"
 	},
 	{
 		"name":"The great Roman Treasure",
 		"image":"static/teamtaboologo.png",
-		"categorie":"RPG"
+		"categorie":"RPG",
+		"url":"#",
+		"description":"<span class=\"font-accent\">Describe words</span> to your teammates <span class=\"font-accent\">without saying them!</span> The clock is ticking!"
+	
 	},
 	{
 		"name":"Board and Card Game",
 		"image":"static/teamtaboologo.png",
-		"categorie":"Board and Card Game"
+		"categorie":"Board and Card Game",
+		"url":"#",
+		"description":"<span class=\"font-accent\">Describe words</span> to your teammates <span class=\"font-accent\">without saying them!</span> The clock is ticking!"
+	
 	}
 ]
