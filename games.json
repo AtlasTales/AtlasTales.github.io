@@ -1,25 +1,31 @@
 [
 	{
 		"name":"The Sand War",
-		"image":"static/teamtaboologo.png",
+		"logo":"static/teamtaboologo.png",
+		"imageScreen":"static/teamtaboologo.png",
 		"categorie":"FPS/TPS",
 		"url":"#",
-		"description":"<span class=\"font-accent\">Describe words</span> to your teammates <span class=\"font-accent\">without saying them!</span> The clock is ticking!"
+		"description":"<span class=\"font-accent\">Describe words</span> to your teammates <span class=\"font-accent\">without saying them!</span> The clock is ticking!",
+		"info":"4+ player"
 	},
 	{
 		"name":"The great Roman Treasure",
-		"image":"static/teamtaboologo.png",
+		"logo":"static/teamtaboologo.png",
+		"imageScreen":"static/teamtaboologo.png",
 		"categorie":"RPG",
 		"url":"#",
-		"description":"<span class=\"font-accent\">Describe words</span> to your teammates <span class=\"font-accent\">without saying them!</span> The clock is ticking!"
+		"description":"<span class=\"font-accent\">Describe words</span> to your teammates <span class=\"font-accent\">without saying them!</span> The clock is ticking!",
+		"info":"4+ player"
 	
 	},
 	{
 		"name":"Board and Card Game",
-		"image":"static/teamtaboologo.png",
+		"logo":"static/teamtaboologo.png",
+		"imageScreen":"static/teamtaboologo.png",
 		"categorie":"Board and Card Game",
 		"url":"#",
-		"description":"<span class=\"font-accent\">Describe words</span> to your teammates <span class=\"font-accent\">without saying them!</span> The clock is ticking!"
+		"description":"<span class=\"font-accent\">Describe words</span> to your teammates <span class=\"font-accent\">without saying them!</span> The clock is ticking!",
+		"info":"4+ player"
 	
 	}
 ]

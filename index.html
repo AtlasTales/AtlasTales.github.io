@@ -647,3 +647,56 @@ transform: rotate(360deg);
     });
   }
 </script>
+
+
+
+
+<script type="text/javascript">
+  var GameContent;
+
+  $.getJSON("https://github.com/AtlasTales/atlastales.github.io/blob/master/games.json", function (content) {
+    GameContent = content;
+    // console.log(GameContent);
+
+  })
+  
+//   GameContent = [
+//   {
+//     "name":"The Sand War",
+//     "logo":"static/teamtaboologo.png",
+//     "imageScreen":"static/teamtaboologo.png",
+//     "categorie":"FPS/TPS",
+//     "url":"#",
+//     "description":"<span class=\"font-accent\">Describe words</span> to your teammates <span class=\"font-accent\">without saying them!</span> The clock is ticking!"
+//   },
+//   {
+//     "name":"The great Roman Treasure",
+//     "logo":"static/teamtaboologo.png",
+//     "imageScreen":"static/teamtaboologo.png",
+//     "categorie":"RPG",
+//     "url":"#",
+//     "description":"<span class=\"font-accent\">Describe words</span> to your teammates <span class=\"font-accent\">without saying them!</span> The clock is ticking!"
+  
+//   },
+//   {
+//     "name":"Board and Card Game",
+//     "logo":"static/teamtaboologo.png",
+//     "imageScreen":"static/teamtaboologo.png",
+//     "categorie":"Board and Card Game",
+//     "url":"#",
+//     "description":"<span class=\"font-accent\">Describe words</span> to your teammates <span class=\"font-accent\">without saying them!</span> The clock is ticking!"
+  
+//   }
+// ]
+    var GameContainer = $("#games").empty();
+
+    // <h2 class="gameshdg">Explorer les jeux</h2>
+    // <div class="filtergames"></div>
+
+    GameContent.forEach(function (Game) {
+      GameDate = new Date(Game.Date).toLocaleDateString("en-GB", { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+
+      GameContainer.append('<section class="innerblock sfwgffg">      <div class="hdg">        <h3>'+Game.name+'</h3>        <img class="gamelogo" src="'+Game.logo+'" alt="Logo of Team Taboo game">      </div>      <span class="drinkinggame">Game categorie</span>      <div class="imgwrap">        <img src="'+Game.imageScreen+'" alt="Screenshots of Team Taboo game">        <span class="workmode">Safe for work</span>      </div>      <p class="desc">'+Game.description+'</p>      <a class="btn pmy blue" href="#/play/startgame/teamtaboo" target="_blank">Jouer le jeu</a>      <p class="free">'+Game.info+'</p>    </section>');
+    });
+
+</script>
