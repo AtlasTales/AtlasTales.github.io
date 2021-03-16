@@ -206,11 +206,11 @@
             <input type="text" name="isFromSite" tabindex="-1" value="true">
           </div>
           <a class="btn pmy yellow" id="submitsubscribebtn2" href="#logging">Abonnez-Vous</a>
+          <div class="g-signin2" data-onsuccess="onSignIn"></div>
           <p class="spam">Un mois gratuit pour les nouveaux</p>
 
         </div>
 
-        <div class="g-signin2" data-onsuccess="onSignIn"></div>
 
       </form>
     </div>
@@ -532,5 +532,14 @@
 
 <script type="text/javascript">
   $(".free").text("4+ Players");
-  $(".drinkinggame").text("Game categorie")
+  $(".drinkinggame").text("Game categorie");
+
+
+  function onSignIn(googleUser) {
+  var profile = googleUser.getBasicProfile();
+  console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+  console.log('Name: ' + profile.getName());
+  console.log('Image URL: ' + profile.getImageUrl());
+  console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+}
 </script>
