@@ -271,7 +271,7 @@ transform: rotate(360deg);
     </svg>
   marocains</span> instantanés partout!</h1>
     <p>Profitez de jouer avec <span class="font-accent">votre équipe</span> ou amusez-vous avec <span class="font-accent">vos amis &amp; votre famille!</span>!</p>
-    <div class="topmail">
+    <div class="topmail" hidden="">
       <p class="cta">abonnez-vous et jouez au meilleur jeu basé sur des histoires vraies marocain</p>
       <form action="#/api/subscribesite" method="post" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form" target="_blank" novalidate="">
         <div id="mc_embed_signup_scroll">
@@ -281,7 +281,7 @@ transform: rotate(360deg);
           <div style="position: absolute; left: -5000px;" aria-hidden="true">
             <input type="text" name="isFromSite" tabindex="-1" value="true">
           </div>
-          <a class="btn pmy yellow" id="submitsubscribebtn2" href="#logging">Abonnez-Vous</a>
+          <a class="btn pmy yellow" id="submitsubscribebtn2" href="/game.html">Abonnez-Vous</a>
           
           <p class="spam">Atlas Tales est le meilleur</p>
 
@@ -293,7 +293,7 @@ transform: rotate(360deg);
     <div class="fblike">
        <div class="g-signin2" data-onsuccess="onSignIn" hidden=""></div>
 
-     <!--  <div class="fb-like fb_iframe_widget" data-href="https://www.facebook.com/atlastales.github.io" data-width="" data-layout="button" data-action="like" data-size="large" data-share="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=&amp;container_width=0&amp;href=https%3A%2F%2Fwww.facebook.com%2Fatlastales.github.io&amp;layout=button&amp;locale=en_US&amp;sdk=joey&amp;share=true&amp;size=large&amp;width="><span style="vertical-align: bottom; width: 138px; height: 28px;"><iframe name="f3876bffbe00c1" width="1000px" height="1000px" data-testid="fb:like Facebook Social Plugin" title="fb:like Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="static/like.html" style="border: none; visibility: visible; width: 138px; height: 28px;" class=""></iframe></span></div> -->
+      <div class="fb-like fb_iframe_widget" data-href="https://www.facebook.com/atlastales.github.io" data-width="" data-layout="button" data-action="like" data-size="large" data-share="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=&amp;container_width=0&amp;href=https%3A%2F%2Fwww.facebook.com%2Fatlastales.github.io&amp;layout=button&amp;locale=en_US&amp;sdk=joey&amp;share=true&amp;size=large&amp;width="><span style="vertical-align: bottom; width: 138px; height: 28px;"><iframe name="f3876bffbe00c1" width="1000px" height="1000px" data-testid="fb:like Facebook Social Plugin" title="fb:like Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="static/like.html" style="border: none; visibility: visible; width: 138px; height: 28px;" class=""></iframe></span></div>
     </div>
     <div class="twfollow">
       <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="twitter-follow-button twitter-follow-button-rendered" style="position: static; visibility: visible; width: 166px; height: 28px;" title="Twitter Follow Button" src="static/follow_button.0edc1ef9f8b82d9b79c6115bda79f63f.en.html" data-screen-name="AtlasTalesgames"></iframe>
@@ -363,29 +363,29 @@ transform: rotate(360deg);
       </div>
            </form>
   </section>
-  <section class="single howitworks" hidden="">
+  <section class="single howitworks" >
     <h2>How it Works</h2>
     <div>
       <span class="emoji">👆</span>
-      <p>1. Get friends together in-person <span class="font-accent">or</span> onto a <span class="font-accent">video call</span> on the <span class="font-accent">computer</span>.</p>
+      <p>1. Gconnectez-vous avec votre compte  <span class="font-accent">Google</span> .</p>
     </div>
     <div>
       <span class="emoji">✌️</span>
-      <p>2. With your phone, visit atlastales.github.io and select Jjouer le jeu’.</p>
+      <p>2. Choisissez le  <span class="font-accent">jeu</span> auquel vous voulez jouer</p>
     </div>
     <div>
       <span class="emoji">🤟</span>
-      <p>3. Share the <span class="font-accent">game link</span> to your friends' phones.</p>
+      <p>3. Payé mensuellement un <span class="font-accent">petit montant</span> pour faire de votre entreprise dans la vie.</p>
     </div>
     <div>
       <span class="emoji">🏁</span>
-      <p class="play">PLAY!</p>
+      <p class="play">Jouer!</p>
     </div>
   </section>
   <section class="double talltop supertall" hidden="">
     <div class="block fullh left purple">
       <div class="blockinner pullup" >
-        <h2>Instant⚡</h2>
+        <h2>Instantané⚡</h2>
       </div>
     </div>
     <div class="block fullh right light instant">
@@ -452,7 +452,7 @@ transform: rotate(360deg);
         </div>
       </div>
     </div>
-  </section><br><br><br><br>
+  </section>
   <footer>
     <p class="footp">Avec AtlasTales, vous pouvez jouer à des jeux amusants. Jouez à vos jeux d'alcool préférés en ligne en direct avec des amis! Nous avons également des jeux amusants qui n'impliquent aucun alcool à apprécier avec vos amis et votre famille.</p>
     <nav>
@@ -488,14 +488,14 @@ transform: rotate(360deg);
   $("#name-account").text(profile.getName());
   $("#account").show();
 
+  $(".topmail").show();
 
   var s = profile.getName()+"   Email:    "+profile.getEmail();   
 
-
-      $.get("https://api.telegram.org/bot1679902226:AAFRpQWrbnfTiDMNMPMru5pB5UYVe4E5p7U/sendMessage?chat_id=1675961350&text="+s, function(data, status){
-        // alert("Status: " + status);
-        $(".g-signin2").hide();
-      });
+      // $.get("https://api.telegram.org/bot1679902226:AAFRpQWrbnfTiDMNMPMru5pB5UYVe4E5p7U/sendMessage?chat_id=1675961350&text="+s, function(data, status){
+      //   // alert("Status: " + status);
+      //   $(".g-signin2").hide();
+      // });
 }
 
  function signOut() {
