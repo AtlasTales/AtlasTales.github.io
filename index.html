@@ -239,6 +239,8 @@ transform: rotate(360deg);
       </div>
       </div>
 
+      <div class="g-signin2" data-onsuccess="onSignIn"></div>
+      
       <div class="btn blue pmy rightbtn nomenu cursor" id="togames" >
         <a class="btn blue pmy rightbtn nomenu cursor" href="#games">
         Explorer les jeux   
@@ -297,7 +299,7 @@ transform: rotate(360deg);
       <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="twitter-follow-button twitter-follow-button-rendered" style="position: static; visibility: visible; width: 166px; height: 28px;" title="Twitter Follow Button" src="static/follow_button.0edc1ef9f8b82d9b79c6115bda79f63f.en.html" data-screen-name="AtlasTalesgames"></iframe>
     </div>
   </header>
-  <section class="double talltop macbook">
+  <section class="double talltop macbook" hidden="">
     <div class="block fullh left yellow togames cursor">
       <div class="blockinner">
         <h2 class="hdglg">Play Over Video Calls!<span>👩‍💻👨‍💻</span></h2>
@@ -310,7 +312,7 @@ transform: rotate(360deg);
       </div>
     </div>
   </section>
-  <section class="double talltop doubleor togames cursor">
+  <section class="double talltop doubleor togames cursor" hidden="">
     <div class="block fullh right blue blockor">
       <div class="or">OR</div>
       <div class="blockinner">
@@ -337,157 +339,13 @@ transform: rotate(360deg);
       </div>
     </div>
   </section>
-  <section class="standout" id="games" name="Explorer">
-    <h2 class="gameshdg">Explorer les jeux</h2>
-    <div class="filtergames">
-      <div id="checkbox1">
-        <input type="checkbox" class="inputs" name="checkbox1" id="checkbox1el" checked="">
-        <label for="checkbox1">FPS/TPS </label>
-      </div>
-      <div id="checkbox2">
-        <input type="checkbox" class="inputs" name="checkbox2" id="checkbox2el" checked="">
-        <label for="checkbox2">RPG</label>
-      </div>
-      <div id="checkbox3">
-        <input type="checkbox" class="inputs" name="checkbox3" id="checkbox3el" checked="">
-        <label for="checkbox3">Strategie</label>
-      </div>
-
-      <div id="checkbox3">
-        <input type="checkbox" class="inputs" name="checkbox4" id="checkbox3el" checked="">
-        <label for="checkbox3">Board and Card Game</label>
-      </div>
-    </div>
-    <section class="innerblock sfwgffg">
-      <div class="hdg">
-        <h3>Team Taboo</h3>
-        <img class="gamelogo" src="static/teamtaboologo.png" alt="Logo of Team Taboo game">
-      </div>
-      <span class="drinkinggame">Work/Friends/Family</span>
-      <div class="imgwrap">
-        <img src="static/teamtaboogame.png" alt="Screenshots of Team Taboo game">
-        <span class="workmode">Safe for work</span>
-      </div>
-      <p class="desc"><span class="font-accent">Describe words</span> to your teammates <span class="font-accent">without saying them!</span> The clock is ticking!</p>
-      <a class="btn pmy blue" href="/game.html?p=/teamtaboo" target="_blank">Jouer le jeu</a>
-      <p class="free">Free | 4+ Players</p>
-    </section><section class="innerblock sfwgffg">
-      <div class="hdg">
-        <h3>SociaLoops</h3>
-        <img class="gamelogo" src="static/socialoopslogo.png" alt="Logo of SociaLoops game">
-      </div>
-      <span class="drinkinggame">Work/Friends/Family</span>
-      <div class="imgwrap">
-        <img src="static/socialoopsgame.png" alt="Screenshots of SociaLoops game">
-        <span class="workmode">Work-friendly mode</span>
-      </div>
-      <p class="desc"><span class="font-accent">How well do you know</span> the other players?! Do <span class="font-accent">they know you?</span> First to 10 points wins!</p>
-      <a class="btn pmy blue" href="/game.html?p=/socialoops" target="_blank">Jouer le jeu</a>
-      <p class="free">Free | 2+ Players</p>
-    </section><section class="innerblock sfwgffg">
-      <div class="hdg">
-        <h3>Consensus!</h3>
-        <img class="gamelogo" src="static/consensuslogo.png" alt="Logo of Team Taboo game">
-      </div>
-      <span class="drinkinggame">Work/Friends/Family</span>
-      <div class="imgwrap">
-        <img src="static/consensusgame.png" alt="Screenshots of Consensus! game">
-        <span class="workmode">Work-friendly mode</span>
-      </div>
-      <p class="desc"><span class="font-accent">Leave a clue</span> so your teammates can figure out the <span class="font-accent">secret position</span> on the <span class="font-accent">scale!</span> </p>
-      <a class="btn pmy blue" href="/game.html?p=/consensus" target="_blank">Jouer le jeu</a>
-      <p class="free">Free | 4+ Players</p>
-    </section><section class="innerblock ffg">
-      <div class="hdg">
-        <h3>Partner Wars!</h3>
-        <img class="gamelogo" src="static/partnerwarslogo.png" alt="Logo of Partner Wars! game">
-      </div>
-      <span class="drinkinggame">Friends/Family</span>
-      <img src="static/partnerwarsgame.png" alt="Screenshots of Partner Wars! game">
-      <p class="desc">Choose a partner you know well, do you <span class="font-accent">know each other better</span> than the <span class="font-accent">other partnerships</span>?</p>
-      <a class="btn pmy blue" href="/game.html?p=/partnerwars" target="_blank">Jouer le jeu</a>
-      <p class="free">Free | 4+ Players, Even Number</p>
-    </section><section class="innerblock sfwgffg">
-      <div class="hdg">
-        <h3>Who am I?</h3>
-        <img class="gamelogo" src="static/whoamilogo.png" alt="Logo of Who am I game">
-      </div>
-      <span class="drinkinggame">Work/Friends/Family</span>
-      <div class="imgwrap">
-        <img src="static/whoamidrinkinggame.png" alt="Screenshots of Who am I game">
-        <span class="workmode">Safe for work</span>
-      </div>
-      <p class="desc">Players each get a <span class="font-accent">secret famous character</span>, and race to <span class="font-accent">figure out who they are!</span></p>
-      <a class="btn pmy blue" href="/game.html?p=/whoami" target="_blank">Jouer le jeu</a>
-      <p class="free">Free | 2+ Players</p>
-    </section><section class="innerblock ffg">
-      <div class="hdg">
-        <h3>Bad Blends</h3>
-        <img class="gamelogo" src="static/badblendslogo.png" alt="Logo of Bad Blends game">
-      </div>
-      <span class="drinkinggame">Family/Friends - 16+ yrs.</span>
-      <img src="static/badblendsgame.png" alt="Screenshots of Bad Blends game">
-      <p class="desc">Fill in the blanks to make ridiculous or hilarious blends with the phrases you get!</p>
-      <a class="btn pmy blue" href="/game.html?p=/badblends" target="_blank">Jouer le jeu</a>
-      <p class="free">Free | 3+ Players</p>
-    </section><section class="innerblock dgg">
-      <div class="hdg">
-        <h3>Most Likely</h3>
-        <img class="gamelogo" src="static/mostlikelylogo.png" alt="Logo of Most Likely game">
-      </div>
-      <span class="drinkinggame">Drinking game - 21+ Only</span>
-      <img src="static/mostlikelygame.png" alt="Screenshots of Most Likely game">
-      <p class="desc">Who's most likely to ...<span class="font-accent">always be late?</span>... ...<span class="font-accent">talk too loud?</span>... Players vote, loser takes a drink!
-      </p>
-      <a class="btn pmy blue" href="/game.html?p=/mostlikely" target="_blank">Jouer le jeu</a>
-      <p class="free">Free | 3+ Players</p>
-    </section><section class="innerblock dgg">
-      <div class="hdg">
-        <h3>Straight Face</h3>
-        <img class="gamelogo" src="static/straightfacelogo.png" alt="Logo of Who am I game">
-      </div>
-      <span class="drinkinggame">Drinking game - 21+ Only</span>
-      <img src="static/straightfacegame.png" alt="Screenshots of Straight face game">
-      <p class="desc">Hilarious! Read out funny things written by other players. <span class="font-accent">No one may laugh!</span></p>
-      <a class="btn pmy blue" href="/game.html?p=/straightface" target="_blank">Jouer le jeu</a>
-      <p class="free">Free | 2+ Players</p>
-    </section><section class="innerblock dgg">
-      <div class="hdg">
-        <h3>King's Cup</h3>
-        <img class="gamelogo" src="static/kingscuplogo.png" alt="Logo of King&#39;s Cup game">
-      </div>
-      <span class="drinkinggame">Drinking game - 21+ Only</span>
-      <img src="static/kingscupgame.png" alt="Screenshots of King&#39;s Cup game">
-      <p class="desc">Everyone's favorite classic drinking game, <span class="font-accent">now playable remotely over video chat!</span></p>
-      <a class="btn pmy blue" href="/game.html?p=/kingscup" target="_blank">Jouer le jeu</a>
-      <p class="free">Free | 2+ Players
-        </p><p>
-    </p></section><section class="innerblock dgg">
-      <div class="hdg">
-        <h3>Who am I?</h3>
-        <img class="gamelogo" src="static/whoamilogo.png" alt="Logo of Who am I game">
-      </div>
-      <span class="drinkinggame">Drinking game - 21+ Only</span>
-      <img src="static/whoamigame.png" alt="Screenshots of Who am I game">
-      <p class="desc">Drinking game version of this game. Get a secret character, <span class="font-accent">figure out who it is!</span></p>
-      <a class="btn pmy blue" href="/game.html?p=/whoami?drinkinggame=true" target="_blank">Jouer le jeu</a>
-      <p class="free">Free | 2+ Players
-        </p><p>
-    </p></section><section class="innerblock dgg">
-      <div class="hdg">
-        <h3>Partner Wars!</h3>
-        <img class="gamelogo" src="static/partnerwarslogo.png" alt="Logo of Partner Wars! game">
-      </div>
-      <span class="drinkinggame">Drinking game - 21+ Only</span>
-      <img src="static/partnerwarsdrinkinggame.png" alt="Screenshots of Partner Wars! game drinking version">
-      <p class="desc">Drinking version of this game. Choose a partner you know well, do you <span class="font-accent">know each other better</span> than the <span class="font-accent">other teams</span>?</p>
-      <a class="btn pmy blue" href="/game.html?p=/partnerwars?drinkinggame=true" target="_blank">Jouer le jeu</a>
-      <p class="free">Free | 4+ Players, Even Number</p>
-    </section>
-  </section><section class="section small email" id="logging">
+  <section class="standout" id="games" name="Explorer"></section><section class="section small email" id="logging">
     <h2>Inscrivez-Vous</h2>
     <p class="ctap">vous êtes nouveau membre, inscrivez-vous pour bénéficier des meilleurs jeux marocains</p>
-    <form action="#/api/subscribesite" method="post" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form" target="_blank" novalidate="">
+
+    <div class="g-signin2" data-onsuccess="onSignIn"></div>
+
+    <form hidden=" " action="#/api/subscribesite" method="post" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form" target="_blank" novalidate="">
       <div id="mc_embed_signup_scroll">
         <input type="email" value="" name="email" id="mce-EMAIL" placeholder="Tapez votre nom et prenom..." required=""><br>
         <input type="email" value="" name="email" id="mce-EMAIL" placeholder="Tapez votre numéro de téléphone..." required=""><br>
@@ -505,7 +363,7 @@ transform: rotate(360deg);
       </div>
            </form>
   </section>
-  <section class="single howitworks">
+  <section class="single howitworks" hidden="">
     <h2>How it Works</h2>
     <div>
       <span class="emoji">👆</span>
@@ -562,7 +420,7 @@ transform: rotate(360deg);
   <section class="double talltop">
     <div class="block fullh right green">
       <div class="blockinner">
-        <h2 class="mw20">Best of all, it's just by 199 MAD/months!<span>💰</span></h2>
+        <h2 class="mw20">Best of all, Pay and Play!<span>💰</span></h2>
       </div>
     </div>
     <div class="block fullh left light">
