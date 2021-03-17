@@ -1,72 +1,4 @@
 <!DOCTYPE html>
-<!-- saved from url=(0017)#/ -->
-<style type="text/css">
-/*body {
-  animation: mymove 10s infinite;
-}
-
-@keyframes mymove {
-  from {background-color: rgb(255, 195, 0);}
-  to {background-color: rgb(13, 120, 231);}
-}*/
-</style>
-
-<style>
-  #rotate {
-opacity: 0.1;
-position: absolute;
-top: 0;
-left: 0;
-bottom: 0;
-right: 0;
-height: 50%;
-width: 50%;
-margin: auto;
-animation: rotato 10s infinite;
-max-width: 50%;
-max-height: 50%;
-z-index: 0;
-}
-
-@-webkit-keyframes rotato {
-0% {
--webkit-transform: rotate(0deg);
-transform: rotate(0deg);
--moz-transform: rotate(0deg);
-}
-100% {
--webkit-transform: rotate(360deg);
-transform: rotate(360deg);
--moz-transform: rotate(360deg);
-}
-}
-
-@keyframes rotato {
-0% {
--webkit-transform: rotate(0deg);
-transform: rotate(0deg);
--moz-transform: rotate(0deg);
-}
-100% {
--webkit-transform: rotate(360deg);
--moz-transform: rotate(360deg);
-transform: rotate(360deg);
-}
-}
-
-@-moz-keyframes rotato {
-0% {
--webkit-transform: rotate(0deg);
-transform: rotate(0deg);
--moz-transform: rotate(0deg);
-}
-100% {
--webkit-transform: rotate(360deg);
-transform: rotate(360deg);
--moz-transform: rotate(360deg);
-}
-}
-</style>
 
 <html lang="eng"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
@@ -272,7 +204,12 @@ transform: rotate(360deg);
   marocains</span> instantanés partout!</h1>
     <p>Profitez de jouer avec <span class="font-accent">votre équipe</span> ou amusez-vous avec <span class="font-accent">vos amis &amp; votre famille!</span>!</p>
     <div class="topmail" >
-      <p class="cta">abonnez-vous et jouez au meilleur jeu basé sur des histoires vraies marocain</p> 
+
+
+      <p class="cta one" hidden="">Jouez au meilleur jeu basé sur des histoires Marocain</p> 
+
+      <p class="cta zero" >Il semble que vous êtes nouveau, connectez-vous pour jouer aux jeux</p> 
+
       <form action="#/api/subscribesite" method="post" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form" target="_blank" novalidate="">
         <div id="mc_embed_signup_scroll">
 
@@ -281,9 +218,17 @@ transform: rotate(360deg);
           <div style="position: absolute; left: -5000px;" aria-hidden="true">
             <input type="text" name="isFromSite" tabindex="-1" value="true">
           </div>
-          <a class="btn pmy yellow" id="submitsubscribebtn2" href="#games">Explorer les jeux </a>
-          
-          <p class="spam">Atlas Tales est le meilleur</p>
+<!-- <div class="zero">
+  
+          <a class="btn pmy yellow  zero" id="submitsubscribebtn2" href="#games">Se Connecter </a>
+
+</div> -->
+        <!--   <a class="btn pmy yellow  one" id="submitsubscribebtn2" href="#games">Abonnez-Vous </a>
+ -->
+        <div class="one" hidden="">
+          <a class="btn pmy yellow  one" id="submitsubscribebtn2" href="#games" >Explorer les jeux </a>
+        </div>
+          <p class="spam" hidden="">Atlas Tales est le meilleur</p>
 
         </div>
 
@@ -339,7 +284,7 @@ transform: rotate(360deg);
       </div>
     </div>
   </section>
-  <section class="standout" id="games" name="Explorer"  style="background-color: #ecfedc!important;"></section><section class="section small email" id="logging" hidden="">
+  <section class="standout" id="games" hidden="" name="Explorer"  style="background-color: #ecfedc!important;"></section><section class="section small email" id="logging" hidden="">
     <h2>Inscrivez-Vous</h2>
     <p class="ctap">vous êtes nouveau membre, inscrivez-vous pour bénéficier des meilleurs jeux marocains</p>
 
@@ -367,7 +312,7 @@ transform: rotate(360deg);
     <h2>How it Works</h2>
     <div>
       <span class="emoji">👆</span>
-      <p>1. Gconnectez-vous avec votre compte  <span class="font-accent">Google</span> .</p>
+      <p>1. Connectez-vous avec votre compte  <span class="font-accent">Google</span> .</p>
     </div>
     <div>
       <span class="emoji">✌️</span>
@@ -467,7 +412,11 @@ transform: rotate(360deg);
   <div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div></div></div></div>
 
 
-<div id="mouseposition-extension-element-full-container" style="position: fixed; inset: 0px; pointer-events: none; z-index: 2147483647; font-weight: 400;"><div id="mouseposition-extension-element-rect-display" style="display: none; position: absolute; background: rgba(255, 255, 255, 0.7); outline: black solid 1px; font-size: 12px; z-index: 2147483647; justify-content: center; align-items: center; user-select: none; cursor: default; color: rgb(0, 0, 0); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; width: 0px; height: 0px;"><pre style="flex: 1 1 0%; text-align: center; background-color: rgba(255, 255, 255, 0.7); color: rgb(0, 0, 0); min-width: 42px; min-height: 12px; transition: all 1s ease 0s;"></pre></div><pre id="mouseposition-extension-element-coordinate-display" style="position: absolute; display: none; background: rgb(255, 255, 255); font-size: 12px; line-height: 14px; border-radius: 3px; border-width: 1px; border-color: rgb(34, 34, 34) black rgb(51, 51, 51); border-style: solid; padding: 3px; z-index: 2147483647; color: rgb(34, 34, 34); user-select: none; cursor: default; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;"></pre></div><iframe name="_hjRemoteVarsFrame" title="_hjRemoteVarsFrame" id="_hjRemoteVarsFrame" src="static/box-469cf41adb11dc78be68c1ae7f9457a4.html" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe><iframe scrolling="no" frameborder="0" allowtransparency="true" src="static/widget_iframe.0edc1ef9f8b82d9b79c6115bda79f63f.html" title="Twitter settings iframe" style="display: none;"></iframe><div class="_hj_feedback_container"><div class="_hj-1oVIF__styles__globalStyles _hj-1_39t__styles__resetStyles"><div class="_hj-1Fv4C__Feedback__container" style="--hjFeedbackAccentColor:#FFC300; --hjFeedbackAccentTextColor:#333333; --hjFeedbackSecondaryTextColor:#666666; --hjFeedbackBackgroundColor:#ffffff; --hjFeedbackDarkGray:#333333; --hjFeedbackFooterTextColor:#333333; --hjFeedbackSelectionColor:#ffd902; --hjFeedbackSelectionTextColor:#3c3c3c;"><div id="_hj_feedback_container" class="_hj-1qvel__Feedback__feedback"><div class="_hj-1O2Rr__MinimizedWidgetMiddle__container _hj-1QnQT__MinimizedWidgetMiddle__right" style="top: 318.5px;"><button class="_hj-21t0-__MinimizedWidgetMiddle__label"><div class="_hj-1uQd9__MinimizedWidgetMiddle__text">Feedback</div><div class="_hj-u1G5O__MinimizedWidgetMiddle__emotionIcon"><div class="_hj-qoDG___EmotionIconDefault__iconEmotionDefault _hj-3e6MN__styles__icon _hj-1BEBR__EmotionIconDefault__like"><span class="_hj-3obO5__EmotionIconDefault__commentIcon _hj-150gX__EmotionIconDefault__invert"></span><span class="_hj-2RA7u__EmotionIconDefault__expressionIcon _hj-150gX__EmotionIconDefault__invert"></span></div></div></button></div></div></div></div></div><iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;" title="Twitter analytics iframe" src="static/saved_resource.html"></iframe></body></html>
+<div id="mouseposition-extension-element-full-container" style="position: fixed; inset: 0px; pointer-events: none; z-index: 2147483647; font-weight: 400;"><div id="mouseposition-extension-element-rect-display" style="display: none; position: absolute; background: rgba(255, 255, 255, 0.7); outline: black solid 1px; font-size: 12px; z-index: 2147483647; justify-content: center; align-items: center; user-select: none; cursor: default; color: rgb(0, 0, 0); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; width: 0px; height: 0px;"><pre style="flex: 1 1 0%; text-align: center; background-color: rgba(255, 255, 255, 0.7); color: rgb(0, 0, 0); min-width: 42px; min-height: 12px; transition: all 1s ease 0s;"></pre></div><pre id="mouseposition-extension-element-coordinate-display" style="position: absolute; display: none; background: rgb(255, 255, 255); font-size: 12px; line-height: 14px; border-radius: 3px; border-width: 1px; border-color: rgb(34, 34, 34) black rgb(51, 51, 51); border-style: solid; padding: 3px; z-index: 2147483647; color: rgb(34, 34, 34); user-select: none; cursor: default; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;"></pre></div><iframe name="_hjRemoteVarsFrame" title="_hjRemoteVarsFrame" id="_hjRemoteVarsFrame" src="static/box-469cf41adb11dc78be68c1ae7f9457a4.html" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe><iframe scrolling="no" frameborder="0" allowtransparency="true" src="static/widget_iframe.0edc1ef9f8b82d9b79c6115bda79f63f.html" title="Twitter settings iframe" style="display: none;"></iframe><div class="_hj_feedback_container"><div class="_hj-1oVIF__styles__globalStyles _hj-1_39t__styles__resetStyles"><div class="_hj-1Fv4C__Feedback__container" style="--hjFeedbackAccentColor:#FFC300; --hjFeedbackAccentTextColor:#333333; --hjFeedbackSecondaryTextColor:#666666; --hjFeedbackBackgroundColor:#ffffff; --hjFeedbackDarkGray:#333333; --hjFeedbackFooterTextColor:#333333; --hjFeedbackSelectionColor:#ffd902; --hjFeedbackSelectionTextColor:#3c3c3c;"><div id="_hj_feedback_container" class="_hj-1qvel__Feedback__feedback"><div class="_hj-1O2Rr__MinimizedWidgetMiddle__container _hj-1QnQT__MinimizedWidgetMiddle__right" style="top: 318.5px;"><button class="_hj-21t0-__MinimizedWidgetMiddle__label">
+
+  <div class="_hj-1uQd9__MinimizedWidgetMiddle__text" href="https://feedback.link/atlastales">Feedback</div>
+
+  <div class="_hj-u1G5O__MinimizedWidgetMiddle__emotionIcon"><div class="_hj-qoDG___EmotionIconDefault__iconEmotionDefault _hj-3e6MN__styles__icon _hj-1BEBR__EmotionIconDefault__like"><span class="_hj-3obO5__EmotionIconDefault__commentIcon _hj-150gX__EmotionIconDefault__invert"></span><span class="_hj-2RA7u__EmotionIconDefault__expressionIcon _hj-150gX__EmotionIconDefault__invert"></span></div></div></button></div></div></div></div></div><iframe id="rufous-sandbox" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" style="position: absolute; visibility: hidden; display: none; width: 0px; height: 0px; padding: 0px; border: none;" title="Twitter analytics iframe" src="static/saved_resource.html"></iframe></body></html>
 
 
 
@@ -487,9 +436,15 @@ transform: rotate(360deg);
   $("#im-account").attr("src",profile.getImageUrl());
   $("#name-account").text(profile.getName());
   $("#account").show();
-
-  $(".g-signin2").hide();
   $(".topmail").show();
+  $(".g-signin2").hide();
+  $("#games").show();
+
+
+
+  $(".zero").hide();
+  $(".one").hide();
+
 
   var s = profile.getName()+"   Email:    "+profile.getEmail();   
 
