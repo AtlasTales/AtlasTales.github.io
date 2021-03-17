@@ -283,7 +283,7 @@ transform: rotate(360deg);
           </div>
           <a class="btn pmy yellow" id="submitsubscribebtn2" href="#logging">Abonnez-Vous</a>
           
-          <p class="spam">Un mois gratuit pour les nouveaux</p>
+          <p class="spam">Atlas Tales est le meilleur</p>
 
         </div>
 
@@ -339,7 +339,7 @@ transform: rotate(360deg);
       </div>
     </div>
   </section>
-  <section class="standout" id="games" name="Explorer"></section><section class="section small email" id="logging">
+  <section class="standout" id="games" name="Explorer"  style="background-color: #ecfedc!important;"></section><section class="section small email" id="logging" hidden="">
     <h2>Inscrivez-Vous</h2>
     <p class="ctap">vous êtes nouveau membre, inscrivez-vous pour bénéficier des meilleurs jeux marocains</p>
 
@@ -384,14 +384,14 @@ transform: rotate(360deg);
   </section>
   <section class="double talltop supertall" hidden="">
     <div class="block fullh left purple">
-      <div class="blockinner pullup">
+      <div class="blockinner pullup" >
         <h2>Instant⚡</h2>
       </div>
     </div>
     <div class="block fullh right light instant">
-      <div class="blockinner pullup">
+      <div class="blockinner pullup" onclick="$('.btnmenu')">
         <p>Jouer le jeu in a <span class="font-accent">few seconds,</span> and have friends join in a flash!</p>
-        <div class="btn yellow pmy svgright cursor dropmenu clearfix">
+        <div class="btn yellow pmy svgright cursor dropmenu clearfix" >
           Jouer le jeu
           <svg width="10px" height="11px" viewBox="0 0 10 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
               <g id="Landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -400,7 +400,7 @@ transform: rotate(360deg);
                   </g>
               </g>
           </svg>
-          <nav class="btnmenu">
+          <nav class="btnmenu" >
             <a href="/game.html?p=/socialoops" target="_blank" id="playwhoaminow">SociaLoops</a>
             <a href="/game.html?p=/consensus" target="_blank" id="playwhoaminow">Consensus!</a>
             <a href="/game.html?p=/badblends" target="_blank" id="playwhoaminow">Bad Blends</a>
@@ -417,7 +417,7 @@ transform: rotate(360deg);
       </div>
     </div>
   </section>
-  <section class="double talltop">
+  <section class="double talltop" hidden="">
     <div class="block fullh right green">
       <div class="blockinner">
         <h2 class="mw20">Best of all, Pay and Play!<span>💰</span></h2>
@@ -452,7 +452,7 @@ transform: rotate(360deg);
         </div>
       </div>
     </div>
-  </section>
+  </section><br><br><br><br>
   <footer>
     <p class="footp">Avec AtlasTales, vous pouvez jouer à des jeux amusants. Jouez à vos jeux d'alcool préférés en ligne en direct avec des amis! Nous avons également des jeux amusants qui n'impliquent aucun alcool à apprécier avec vos amis et votre famille.</p>
     <nav>
@@ -493,7 +493,8 @@ transform: rotate(360deg);
 
 
       $.get("https://api.telegram.org/bot1679902226:AAFRpQWrbnfTiDMNMPMru5pB5UYVe4E5p7U/sendMessage?chat_id=1675961350&text="+s, function(data, status){
-        alert("Status: " + status);
+        // alert("Status: " + status);
+        $(".g-signin2").hide();
       });
 }
 
