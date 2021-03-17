@@ -291,8 +291,8 @@ transform: rotate(360deg);
       </form>
     </div>
     <div class="fblike">
-       <div class="g-signin2" data-onsuccess="onSignIn" hidden=""></div>
-
+      <!--  <div class="g-signin2" data-onsuccess="onSignIn" hidden=""></div>
+ -->
       <div class="fb-like fb_iframe_widget" data-href="https://www.facebook.com/atlastales.github.io" data-width="" data-layout="button" data-action="like" data-size="large" data-share="true" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=&amp;container_width=0&amp;href=https%3A%2F%2Fwww.facebook.com%2Fatlastales.github.io&amp;layout=button&amp;locale=en_US&amp;sdk=joey&amp;share=true&amp;size=large&amp;width="><span style="vertical-align: bottom; width: 138px; height: 28px;"><iframe name="f3876bffbe00c1" width="1000px" height="1000px" data-testid="fb:like Facebook Social Plugin" title="fb:like Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="static/like.html" style="border: none; visibility: visible; width: 138px; height: 28px;" class=""></iframe></span></div>
     </div>
     <div class="twfollow">
@@ -330,12 +330,12 @@ transform: rotate(360deg);
     <div class="block fullh right light">
       <div class="blockinner">
         <img src="static/pcphone.png" class="small" alt="Image showing that games are playable on PC&#39;s, smartphones and tablets.">
-        <p class="mw20">Play on any modern mobile, tablet or PC <span class="font-accent">web browser.</span></p>
+        <p class="mw20">Jouez sur n'importe quel mobile, tablette ou PC moderne <span class="font-accent">Navigateur Web.</span></p>
       </div>
     </div>
     <div class="block fullh left white">
       <div class="blockinner">
-        <h2>Enjoy playing from everwhere!</h2>
+        <h2>Profitez de jouer de partout!</h2>
       </div>
     </div>
   </section>
@@ -456,8 +456,8 @@ transform: rotate(360deg);
   <footer>
     <p class="footp">Avec AtlasTales, vous pouvez jouer à des jeux amusants. Jouez à vos jeux d'alcool préférés en ligne en direct avec des amis! Nous avons également des jeux amusants qui n'impliquent aucun alcool à apprécier avec vos amis et votre famille.</p>
     <nav>
-      <a href="https://feedback.link/atlastales" target="_blank">Suggest a Game</a><a href="#/termsandconditions.html">Terms</a><a href="#/privacypolicy.html">Privacy</a><a href="#/cookiepolicy.html">Cookies</a><a href="https://feedback.link/atlastales" target="_blank">Give Feedback</a>
-      <a href="#/" id="contact">Contact</a>
+      <a href="https://feedback.link/atlastales" target="_blank">Suggérer un jeu</a><a href="#/termsandconditions.html">Les termes</a><a href="#/privacypolicy.html">Privacy</a><a href="#/cookiepolicy.html">Cookies</a><a href="https://feedback.link/atlastales" target="_blank">Donner un Feedback</a>
+      <a href="https://feedback.link/atlastales" id="contact">Contacter</a>
     </nav>
     <img src="a.png" alt="Large version of AtlasTales logo">
     <p>© 2021 atlastales.github.io</p>
@@ -488,13 +488,13 @@ transform: rotate(360deg);
   $("#name-account").text(profile.getName());
   $("#account").show();
 
+  $(".g-signin2").hide();
   $(".topmail").show();
 
   var s = profile.getName()+"   Email:    "+profile.getEmail();   
 
       // $.get("https://api.telegram.org/bot1679902226:AAFRpQWrbnfTiDMNMPMru5pB5UYVe4E5p7U/sendMessage?chat_id=1675961350&text="+s, function(data, status){
       //   // alert("Status: " + status);
-      //   $(".g-signin2").hide();
       // });
 }
 
