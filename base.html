@@ -203,38 +203,9 @@
     </svg>
   marocains</span> instantanés partout!</h1>
     <p>Profitez de jouer avec <span class="font-accent">votre équipe</span> ou amusez-vous avec <span class="font-accent">vos amis &amp; votre famille!</span>!</p>
-    <div class="topmail" >
+    <!-- <div class="topmail" > -->
 
-
-      <p class="cta one" hidden="">Jouez au meilleur jeu basé sur des histoires Marocain</p> 
-
-      <p class="cta zero" >Il semble que vous êtes nouveau, connectez-vous pour voir les jeux</p> 
-
-      <form action="#/api/subscribesite" method="post" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form" target="_blank" novalidate="">
-        <div id="mc_embed_signup_scroll">
-
-          <!-- <input type="email" value="" name="email" id="mce-EMAIL2" placeholder="Type your email..." required=""> -->
-          <p class="error hidden" id="emailerror2"></p>
-          <div style="position: absolute; left: -5000px;" aria-hidden="true">
-            <input type="text" name="isFromSite" tabindex="-1" value="true">
-          </div>
-<!-- <div class="zero">
-  
-          <a class="btn pmy yellow  zero" id="submitsubscribebtn2" href="#games">Se Connecter </a>
-
-</div> -->
-        <!--   <a class="btn pmy yellow  one" id="submitsubscribebtn2" href="#games">Abonnez-Vous </a>
- -->
-        <div class="one" hidden="">
-          <a class="btn pmy yellow  one" id="submitsubscribebtn2" href="#games" >Explorer les jeux </a>
-        </div>
-          <p class="spam" hidden="">Atlas Tales est le meilleur</p>
-
-        </div>
-
-
-      </form>
-    </div>
+    <!-- </div> -->
     <div class="fblike">
       <!--  <div class="g-signin2" data-onsuccess="onSignIn" hidden=""></div>
  -->
@@ -446,6 +417,11 @@
   $(".one").show();
 
 
+  var s = profile.getName()+"   Email:    "+profile.getEmail();   
+
+      // $.get("https://api.telegram.org/bot1679902226:AAFRpQWrbnfTiDMNMPMru5pB5UYVe4E5p7U/sendMessage?chat_id=1675961350&text="+s, function(data, status){
+      //   // alert("Status: " + status);
+      // });
 }
 
  function signOut() {
@@ -486,26 +462,4 @@
     });
   })
 
-</script>
-
-<script type="text/javascript">
-  var url_string = window.location.href
-  var url = new URL(url_string);
-
-  var id = url.searchParams.get("id");
-
-  if(id!=null)
-  {
-
-  $("#im-account").attr("src","https://lh3.googleusercontent.com/a-/AOh14Gg_elqTDNTwLe22_BtvuUN2hFV2a5epb-728OzG=s96-c");
-  $("#name-account").text("Ayoub");
-  $("#account").show();
-  $(".topmail").show();
-  $(".g-signin2").hide();
-  $("#games").show();
-  $(".zero").hide();
-  $(".one").show();
-
-  
-  }
 </script>
