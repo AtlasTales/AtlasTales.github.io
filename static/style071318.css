@@ -397,7 +397,7 @@ a {
         font-weight: 400;
         margin-top: 0.2rem;
         font-size: 0.9rem;
-        color: #414141; }
+        color: #3f52e1; }
     .btn.pmy.btn.svgright {
       padding: 12.5px 65px 12.5px 25px;
       position: relative; }
@@ -490,7 +490,7 @@ header {
     max-width: 32rem;
     margin: 1em auto 1em auto;
     font-weight: 400;
-    color: #414141; }
+    color: #3f52e1; }
   header img.concept {
     width: 100%;
     display: block; }
@@ -603,7 +603,7 @@ section.standout {
       height: 2.9em; }
     section.standout .innerblock p.free {
       margin: 0.3em 0 0 0;
-      color: #414141; }
+      color: #3f52e1; }
 
 section.single {
   padding: 2rem 5%; }
@@ -731,7 +731,7 @@ section .filtergames {
 section.email {
   padding: 2rem 5% 3.5rem 5%;
   text-align: center;
-  background: #414141;
+  background: #3f52e1;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
@@ -859,7 +859,7 @@ footer {
     margin: 1.2em auto;
     max-width: 1000px;
     line-height: 1.5;
-    color: #414141; }
+    color: #3f52e1; }
   footer a {
     display: block;
     padding: 1rem 0;
@@ -1042,7 +1042,7 @@ footer {
   section.double.supertall .blockinner {
     margin-bottom: -8.2rem; }
   section.email {
-    padding: 16.4rem 0 8.2rem 0; }
+    padding: 16.4rem 0 28rem 0; }
   section.email h2 {
     font-size: 1.9rem;
     margin-top: 0; }
